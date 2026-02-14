@@ -81,9 +81,13 @@ body {
 .setting_main {
     display: flex;
     flex-direction: row;
+    gap: 25px;
 }
 
-.super_main {
-    width: 20%;
-    height: 10%;
+.Super_main {
+        img {
+            width: 700px;
+            height: 400px;    
+        }
+    
 }
