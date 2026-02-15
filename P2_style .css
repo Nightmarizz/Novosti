@@ -2,30 +2,73 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: -40px; 
+    margin-right: -40px;
+    width: calc(100% + 80px); 
 }
 
 .logo {
-
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    img {
+        width: 75px;
+        height: 75px;
+    }
+    
 }
 .Tlogo {
-    font-size: 110px;
+    font-size: 35px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-shadow: 
         0 0 10px rgba(102, 0, 170, 0.8), 
         0 0 20px rgba(131, 4, 131, 0.5), 
-        0 0 30px purple; 
+        0 0 30px purple;
+    a{
+        text-decoration: none;
+        color: black;
+    } 
 }
 
 
 body {
     background: linear-gradient(90deg, White 0%, purple 100%);
 }
+
+.nav{
+    ul {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        list-style-type: none;
+        gap: 25px;
+        a {
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px white;
+           
+        }
+
+}
+}
+
+.main-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;               
+    max-width: 1200px;        
+    margin: 50px auto;        
+    padding: 40px;            
+    border-radius: 20px;      
+    backdrop-filter: blur(10px);
+    color: white;             
+}
+
 
 
 ul {
@@ -37,24 +80,16 @@ ul {
     list-style-type: none;
     a {
         color: white;
-        -webkit-text-stroke: 0.7px violet;
+        
     }
 
 }
 
-.main-wrapper {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;               
-    max-width: 1200px;        
-    margin: 50px auto;        
-    padding: 40px;            
-    border-radius: 20px;      
-    backdrop-filter: blur(10px);
-    .nav {
-        color: white;
-    }             
-}
 
 .main {
-    color: aqua;
+    text-align: center;
+    color: white;
+    p{
+        font-size: 30px;
+    }
 }
